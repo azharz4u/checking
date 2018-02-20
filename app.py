@@ -29,7 +29,7 @@ html.Div([
 dcc.Dropdown(
 id='mydropdown',
 options=[{'label': i, 'value': i} for i in availableRNCname],
-value=['N104', 'N103','N105','N110'],
+value=['N104', 'N103','N105','N110','N119'],
 multi=True),
 html.Div([
 html.H1('RRC Connection setup SR'),
